@@ -72,7 +72,7 @@ read(s1);
 print(s1);
 print(s1);
 
-
+cout<<"Build Compleated Successfully Without Errors "<<endl;
 return 0 ;
 }
 void print ( student s )  // function instead of cout 
@@ -83,4 +83,6 @@ for (int i =0 ; i<4 ;i++)
 
 cout<<"\t"<<s.avg<<"\t"<<s.home.city<<"/t"<<s.home.b_no<<endl;
 
+
 }
+
