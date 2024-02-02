@@ -32,7 +32,7 @@ void read ( student &s  ) // call by refrence  //function for read // without re
         sum+=s.grades[i];
 
     }
- s.avg\= sum/4.0;
+ s.avg = sum/4.0;
  cout<<"input city number then b" ; 
  cin>>s.home.city>>s.home.b_no ; 
 
@@ -71,8 +71,7 @@ cout<<"\t"<<s1.avg<<"\t"<<s1.home.city<<"\t"<<s1.home.b_no<<endl;
 read(s1);
 print(s1);
 print(s1);
-s2 = s1 ; 
-print(s2); 
+
 
 return 0 ;
 }
