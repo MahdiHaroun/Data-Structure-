@@ -26,7 +26,7 @@ void read ( student &s  ) // call by refrence  //function for read // without re
   cin>>s.id>>s.name;
   double sum =0 ; 
   cout<<"input 4 grades"; 
-  for (int i =0 ; i<$;i++)
+  for (int i =0 ; i<4;i++)
     {
         cin>>s.grades[i];
         sum+=s.grades[i];
